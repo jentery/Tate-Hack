@@ -1,4 +1,4 @@
-Modernist Faces 
+The Faces of Beinecke's Modernism
 =========
 
 A collection of faces for a workshop in http://jentery.github.io/507/ at UVic. 
