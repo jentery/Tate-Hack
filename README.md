@@ -7,7 +7,7 @@ A fork of Terence Eden's Tate-Hack: https://github.com/edent/Tate-Hack. Thanks, 
 
 This script uses Python and runs images through OpenCV's face recognition.
 
-If a face is detected in the Beinecke's "Picturing Literary Modernism" exhibit (http://beinecke.library.yale.edu/collections/highlights/picturing-literary-modernism), then the script crops the face and saves it as a separate image.  This will detect multiple faces per image. The images are saved in the "detected" subdirectory. The URLs for "Picturing Literary Modernism" exhibit are stored in all.txt.  
+If a face is detected in the Beinecke's "Picturing Literary Modernism" exhibit (http://beinecke.library.yale.edu/collections/highlights/picturing-literary-modernism), then the script crops the face and saves it as a separate image.  This will detect multiple faces per image. The images are saved in the `detected` subdirectory of `modfaces`. The URLs for the "Picturing Literary Modernism" exhibit are stored in all.txt, which the Python script calls.   
 
 `downloadface.py` will crop the faces from ~30 images located at http://beinecke.library.yale.edu/collections/highlights/picturing-literary-modernism. (To add/remove URLs, simply edit all.txt.)
 
