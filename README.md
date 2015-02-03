@@ -1,11 +1,11 @@
-Tate-Hack
+Modernist Faces 
 =========
 
-A collection of faces for #hackthespace.
+A collection of faces for a workshop in http://jentery.github.io/507/ at UVic. 
 
-This script uses Python to download all the images from https://github.com/tategallery/collection/blob/master/artist_data.csv
+A fork of Terence Eden's Tate-Hack: https://github.com/edent/Tate-Hack.
 
-It runs the image through OpenCV's face recognition.
+This script uses Python and runs images through OpenCV's face recognition.
 
 If a face is detected, it crops the face and saves it as a separate image.  This will detect multiple faces per image.
 
@@ -13,4 +13,4 @@ If a face is detected, it crops the face and saves it as a separate image.  This
 
 `recognise.py` will compare a photograph to the model and print out the nearest match.
 
-Full write up at http://shkspr.mobi/blog/2014/06/which-painting-do-you-look-like-comparing-faces-using-python-and-opencv/
+Full write up, by Terence Eden, at http://shkspr.mobi/blog/2014/06/which-painting-do-you-look-like-comparing-faces-using-python-and-opencv/
